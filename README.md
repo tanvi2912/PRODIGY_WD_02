@@ -1,1 +1,1 @@
-# PRODIGY_WD_02
+The Stopwatch Project is a simple web-based stopwatch that allows users to measure time in hours, minutes, and seconds. Built using HTML, CSS, and JavaScript, this project features start, stop, and reset functionality, as well as a responsive design for all screen sizes.
