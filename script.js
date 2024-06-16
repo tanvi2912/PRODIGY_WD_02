@@ -1,6 +1,8 @@
 let [milliseconds, seconds, minutes, hours] = [0, 0, 0, 0];
 let timeRef = document.querySelector(".timer-display");
 let int = null;
+let lapCount = 1;
+let lapList = document.getElementById("lap-list");
 
 document.getElementById("start-timer").addEventListener("click", () => {
     if(int !== null) {
@@ -18,6 +20,13 @@ document.getElementById("reset-timer").addEventListener("click", () => {
     [milliseconds, seconds, minutes, hours] = [0, 0, 0, 0];
     timeRef.innerHTML = "00 : 00 : 00 : 000 ";
 }); 
+document.getElementById("lap-timer").addEventListener("click", () => {
+    let lapTime = timeRef.innerHTML;
+    let lapItem = document.createElement("li");
+    lapItem.innerText = `Lap ${lapCount}: ${lapTime}`;
+    lapList.appendChild(lapItem);
+    lapCount++;
+  });
 
 function displayTimer() {
     milliseconds += 10;
@@ -47,3 +56,4 @@ function displayTimer() {
     timeRef.innerHTML = `${h} : ${m} : ${s} : ${ms}`;
 
 }
+
