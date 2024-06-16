@@ -1,1 +1,3 @@
-The Stopwatch Project is a simple web-based stopwatch that allows users to measure time in hours, minutes, and seconds. Built using HTML, CSS, and JavaScript, this project features start, stop, and reset functionality, as well as a responsive design for all screen sizes.
+#PRODIGY_WD_02
+Stop Watch
+Stop Watch To build a stopwatch web application, you can use HTML, CSS, and JavaScript. HTML is used to structure the elements of the application. By implementing functions for starting, pausing, and resetting the stopwatch, as well as tracking and displaying lap times, users can accurately measure and record time intervals. With these technologies and functionalities, you can create an interactive and user-friendly stopwatch web app.
